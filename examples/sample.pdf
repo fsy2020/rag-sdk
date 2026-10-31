@@ -1,0 +1,91 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 246 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(Qdrant is an open source vector database written in Rust.) Tj T*
+(It stores embeddings together with a JSON payload and supports filtering.) Tj T*
+(Collections use cosine, dot product or euclidean distance.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 188 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(PDF parsing extracts the raw text of every page of a document.) Tj T*
+(The pypdf library reads PDF files in pure Python without native dependencies.) Tj T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 247 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(Chunking splits long documents into smaller overlapping pieces.) Tj T*
+(Each chunk is converted into a vector by an embedding model.) Tj T*
+(Retrieval returns the top k chunks closest to the question vector.) Tj T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 11 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 193 >>
+stream
+BT
+/F1 11 Tf
+14 TL
+50 750 Td
+(The weather in the mountains was cold and snowy during the winter holiday.) Tj T*
+(We cooked pasta with tomato sauce and drank hot chocolate by the fire.) Tj T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000133 00000 n 
+0000000260 00000 n 
+0000000557 00000 n 
+0000000684 00000 n 
+0000000923 00000 n 
+0000001050 00000 n 
+0000001348 00000 n 
+0000001476 00000 n 
+0000001721 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+1792
+%%EOF

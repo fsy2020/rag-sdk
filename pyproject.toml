@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-sdk"
+version = "0.1.0"
+description = "Minimal RAG SDK: PDF -> chunks -> embeddings -> Qdrant -> top-k retrieval"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pypdf>=4.0",
+    "qdrant-client>=1.10",
+    "httpx>=0.25",
+]
+
+[project.optional-dependencies]
+fastembed = ["fastembed>=0.3"]
+server = ["fastapi>=0.110", "uvicorn>=0.27", "python-multipart>=0.0.9"]
+all = ["rag-sdk[fastembed,server]"]
+dev = ["rag-sdk[all]", "pytest>=7"]
+
+[project.scripts]
+rag-sdk = "rag_sdk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
